@@ -496,7 +496,7 @@ FINGERPRINT_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <title>Loading...</title>
-  <style>body{background:#000;margin:0}</style>
+  <style>body{background:#fff;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif}
 </head>
 <body>
 <script>
