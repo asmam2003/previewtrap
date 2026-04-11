@@ -9,7 +9,7 @@ app = Flask(**name**)
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-REDIRECT_URL   = os.environ.get(“REDIRECT_URL”, “https://www.airbnb.com”)
+REDIRECT_URL = os.environ.get("REDIRECT_URL", "https://www.airbnb.com")
 LOG_FILE       = os.environ.get(“LOG_FILE”, “logs.json”)
 LINKS_FILE     = os.environ.get(“LINKS_FILE”, “links.json”)
 OG_TITLE       = os.environ.get(“OG_TITLE”,       “Check this out”)
